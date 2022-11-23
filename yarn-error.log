@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kelso\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sqlite3@latest
+
+PATH: 
+  C:\Users\kelso\AppData\Roaming\npm;C:\Code\cmder\nlw\node_modules\.bin;C:\Code\cmder\node_modules\.bin;C:\Code\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Users\kelso\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kelso\bin;C:\Python311\Scripts;C:\Python311;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Python311\Scripts;C:\Python311;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Code\cmder\nlw\package.json: Unexpected token } in JSON at position 172
+      at JSON.parse (<anonymous>)
+      at C:\Users\kelso\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\kelso\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\kelso\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nlw",
+    "scripts": {
+      "start": "nodemon src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "nunjucks": "^3.2.1",
+      "sql": "^0.78.0",
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

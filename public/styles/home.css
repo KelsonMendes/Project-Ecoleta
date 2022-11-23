@@ -20,6 +20,7 @@
     justify-content: space-between;
 }
 
+
 #page-home header a {
     display: flex;
     color: var(--title-color);
@@ -28,10 +29,11 @@
 
 #page-home header a span {
     background-image: url(../assets/log-in.svg);
-    margin-left: 16px;
+    margin-right: 10px;
     display: flex;
     width: 20px;
     height: 20px;
+
 }
 
 #page-home main {
