@@ -1,3 +1,5 @@
+/*????*/
+
 @media (max-width: 800px) {
     #page-home {
         background-position-x: 70vw;
@@ -40,6 +42,7 @@
 
     #page-create-point .items-grid {
         grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
     }
 
     #page-create-point .field-group .field+.field {
@@ -49,6 +52,7 @@
     #page-create-point .button {
         text-align: center;
     }
+
 }
 
 @media(min-width: 1700px) {
@@ -64,21 +68,19 @@
         left: 50%;
         transform: translateX(-50%);
         /* transform: translateY(280%); */
+        
     }
+
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    
 }
 
 @media(max-height: 760px) {
     #page-home {
         background-position-y: 200px;
-    }
-}
-
-@media(max-width: 900px) {
-    #page-home header a {
-        position: absolute;
-        top: 110px;
-        left: 50%;
-        transform: translateX(-50%);
-        /* transform: translateY(280%); */
     }
 }

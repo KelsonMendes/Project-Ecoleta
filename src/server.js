@@ -8,7 +8,8 @@ const db = require("./database/db")
 server.use(express.static("public"))
 
 //habilitar o uso do req.body na aplicação
-server.use(express.urlencoded({ extend: true }))
+server.use(express.urlencoded({ extended: true }))
+//server.use(express.urlencoded({ extend: true }))
 
 //utilizando template engine
 const nunjucks = require("nunjucks")

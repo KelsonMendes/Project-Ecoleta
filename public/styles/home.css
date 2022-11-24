@@ -29,11 +29,15 @@
 
 #page-home header a span {
     background-image: url(../assets/log-in.svg);
-    margin-right: 10px;
     display: flex;
     width: 20px;
     height: 20px;
 
+}
+
+#page-home span {
+    margin-right: 15px;
+    display: flex;
 }
 
 #page-home main {
